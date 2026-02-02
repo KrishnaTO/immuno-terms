@@ -3,7 +3,7 @@ import: http://purl.obolibrary.org/obo/cob/releases/2025-12-12/cob.owl
 import: http://purl.obolibrary.org/obo/ro/releases/2025-12-17/ro.owl
 import: http://purl.org/dc/elements/1.1/
 ontology: urn:absolute:immunology-cancer
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMMUNO_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMMUNO_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMMUNO_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMMUNO_0000046>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMMUNO_0000036> (<http://purl.obolibrary.org/obo/IMMUNO_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMMUNO_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMMUNO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMMUNO_0000045> (<http://purl.obolibrary.org/obo/IMMUNO_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMMUNO_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMMUNO_0000046>)))\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000046>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000036> (<http://purl.obolibrary.org/obo/IMM_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000045> (<http://purl.obolibrary.org/obo/IMM_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMM_0000046>)))\n\n\n)
 
 [Term]
 id: IMM:0000001
@@ -56,7 +56,7 @@ name: APC
 def: "A type of immune cell that boosts immune responses by showing antigens on its surface to other cells of the immune system." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/antigen-presenting-cell"}
 synonym: "Antigen-presenting Cell" EXACT []
 is_a: CL:0000000 ! cell
-relationship: http://purl.obolibrary.org/obo/IMM_1631639b_0a65_4003_bc07_b1ddb0810fff IMMUNO:0000021 ! cytokine
+relationship: http://purl.obolibrary.org/obo/IMM_1631639b_0a65_4003_bc07_b1ddb0810fff IMM:0000021 ! cytokine
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -82,7 +82,7 @@ id: IMM:0000013
 name: CAR-T cell
 synonym: "Chimeric antigen receptor T cell" EXACT []
 is_a: CL:0000000 ! cell
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -90,7 +90,7 @@ id: IMM:0000014
 name: lymphocyte
 synonym: "T-cell" EXACT []
 is_a: CL:0000000 ! cell
-relationship: RO:0002002 IMMUNO:0000026 ! has 2D boundary lymphocyte cell surface
+relationship: RO:0002002 IMM:0000026 ! has 2D boundary lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -99,7 +99,7 @@ name: CD4+ lymphocyte
 synonym: "CD4+ T cell" EXACT []
 synonym: "helper T cell" EXACT []
 is_a: IMM:0000014 ! lymphocyte
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000041 ! MHC II
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000041 ! MHC II
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "interacts with antigens extracellularly, including in bacterial response" xsd:string
 
@@ -109,7 +109,7 @@ name: CD8+ lymphocyte
 synonym: "CD8+ T cell" EXACT []
 synonym: "cytotoxic T cell" EXACT [] {EXACT="CTL"}
 is_a: IMM:0000014 ! lymphocyte
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000040 ! MHC I
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000040 ! MHC I
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -125,8 +125,8 @@ id: IMM:0000018
 name: tumor cell
 synonym: "neoplastic cell" EXACT []
 is_a: CL:0000000 ! cell
-relationship: BFO:0000050 IMMUNO:0000023 ! part of tumor
-relationship: RO:0002002 IMMUNO:0000027 ! has 2D boundary tumor cell surface
+relationship: BFO:0000050 IMM:0000023 ! part of tumor
+relationship: RO:0002002 IMM:0000027 ! has 2D boundary tumor cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -144,20 +144,20 @@ is_a: IMM:0000018 ! tumor cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000021
+id: IMM:0000021
 name: cytokine
 def: "small secreted proteins released by cells have a specific effect on the interactions and communications between cells" [] {IAO:0000119="PMID: 17426506"}
 is_a: GO:0110165 ! cellular anatomical entity
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000022
+id: IMM:0000022
 name: immune system
 is_a: COB:0000021 ! gross anatomical part
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000023
+id: IMM:0000023
 name: tumor
 def: "An abnormal mass of tissue that forms when cells grow and divide more than they should or do not die when they should." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/neoplasm"}
 synonym: "neoplasm" EXACT []
@@ -166,109 +166,109 @@ relationship: RO:0001025 http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_b
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000024
+id: IMM:0000024
 name: lymph node
 is_a: COB:0000021 ! gross anatomical part
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000025
+id: IMM:0000025
 name: cell surface
 is_a: GO:0005575 ! cellular_component
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000026
+id: IMM:0000026
 name: lymphocyte cell surface
-is_a: IMMUNO:0000025 ! cell surface
+is_a: IMM:0000025 ! cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000027
+id: IMM:0000027
 name: tumor cell surface
 synonym: "cancer cell surface" NARROW []
-is_a: IMMUNO:0000025 ! cell surface
+is_a: IMM:0000025 ! cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000028
+id: IMM:0000028
 name: pMHC
 synonym: "peptide-major histocompatibility complex" EXACT []
 is_a: GO:0032991 ! protein-containing complex
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000048 ! TCR
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000048 ! TCR
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000029
+id: IMM:0000029
 name: class I pMHC
-is_a: IMMUNO:0000028 ! pMHC
+is_a: IMM:0000028 ! pMHC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000030
+id: IMM:0000030
 name: class II pMHC
-is_a: IMMUNO:0000028 ! pMHC
+is_a: IMM:0000028 ! pMHC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000031
+id: IMM:0000031
 name: antigen
 def: "small molecular components of cells or non-cellular biological materials. Most often, they are parts of membrane or surface proteins of cells and non-cellular pathogens such as viruses." [] {IAO:0000119="https://www.monash.edu/student-academic-success/biology/initial-responses-of-immune-systems/antigens-and-the-initiation-of-an-immune-response"}
 is_a: COB:0000013 ! molecule
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000032
+id: IMM:0000032
 name: tumor antigen
-is_a: IMMUNO:0000031 ! antigen
+is_a: IMM:0000031 ! antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: seeAlso "TA" xsd:string
 
 [Term]
-id: IMMUNO:0000033
+id: IMM:0000033
 name: tumor associated antigen
 synonym: "TAA" EXACT []
-is_a: IMMUNO:0000032 ! tumor antigen
+is_a: IMM:0000032 ! tumor antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "elevated levels on tumor cells, but are also expressed at lower levels on healthy cells" xsd:string {IAO:0000119="10.1007/s11033-021-06752-9"}
 
 [Term]
-id: IMMUNO:0000034
+id: IMM:0000034
 name: tumor-specific antigen
 synonym: "TSA" EXACT []
-is_a: IMMUNO:0000032 ! tumor antigen
+is_a: IMM:0000032 ! tumor antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "found on cancer cells only, not on healthy cells" xsd:string {IAO:0000119="10.1007/s11033-021-06752-9"}
 
 [Term]
-id: IMMUNO:0000035
+id: IMM:0000035
 name: ligand
 def: "A molecule that binds to another molecule, used especially to refer to a small molecule that binds specifically to a larger molecule" [] {IAO:0000119="MeSH ID: D008024"}
 is_a: COB:0000013 ! molecule
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000043 ! receptor
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000043 ! receptor
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000036
+id: IMM:0000036
 name: PD-L1
 def: "A protein that acts as a kind of “brake” to keep the body’s immune responses under control. PD-L1 may be found on some normal cells and in higher-than-normal amounts on some types of cancer cells. When PD-L1 binds to another protein called PD-1 (a protein found on T cells), it keeps T cells from killing the PD-L1-containing cells, including the cancer cells. Anticancer drugs called immune checkpoint inhibitors bind to PD-L1 and block its binding to PD-1. This releases the “brakes” on the immune system and leaves T cells free to kill cancer cells." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pd-l1"}
 synonym: "programmed cell death protein ligand 1" EXACT []
-relationship: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6 IMMUNO:0000047 ! PD-1
+relationship: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6 IMM:0000047 ! PD-1
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "Attached to cancer cell surface, and binds to PD-1 receptor on T-cell to inhibit programmed cell death." xsd:string {IAO:0000119="https://doi.org/10.3389/fphar.2020.00722"}
 
 [Term]
-id: IMMUNO:0000037
+id: IMM:0000037
 name: antibody
 def: "A protein made by plasma cells (a type of white blood cell) in response to an antigen" [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/antibody"}
 synonym: "immunoglobulin" BROAD []
 is_a: PR:000000001 ! protein
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000031 ! antigen
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000031 ! antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "free floating and not bound to a cell" xsd:string
 
 [Term]
-id: IMMUNO:0000038
+id: IMM:0000038
 name: CD8
 synonym: "cluster of differentiation 8" EXACT []
 is_a: PR:000000001 ! protein
@@ -276,7 +276,7 @@ relationship: BFO:0000050 IMM:0000016 ! part of CD8+ lymphocyte
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000039
+id: IMM:0000039
 name: MHC
 synonym: "human leukocyte antigen" EXACT [] {EXACT="HLA"}
 synonym: "Major histocompatibility complex" EXACT []
@@ -284,140 +284,140 @@ is_a: PR:000000001 ! protein
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000040
+id: IMM:0000040
 name: MHC I
 def: "expressed on all nucleated cells and platelets (except those of the central nervous system)" [] {IAO:0000119="Cruz-Tapias P, Castiblanco J, Anaya JM. Major histocompatibility complex: Antigen processing and presentation. In: Anaya JM, Shoenfeld Y, Rojas-Villarraga A, et al., editors. Autoimmunity: From Bench to Bedside [Internet]. Bogota (Colombia): El Rosario University Press; 2013 Jul 18. Chapter 10. Available from: https://www.ncbi.nlm.nih.gov/books/NBK459467/"}
 synonym: "human leukocyte antigen class I" EXACT [] {EXACT="HLA class I"}
 synonym: "MHC class I" EXACT []
-is_a: IMMUNO:0000039 ! MHC
+is_a: IMM:0000039 ! MHC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000041
+id: IMM:0000041
 name: MHC II
 def: "expressed on antigen presenting cells (APC) such as B lymphocytes, dendritic cells, macrophages, monocytes, Langerhans cells, endothelial cells, and thymic epithelial cells." [] {IAO:0000119="Cruz-Tapias P, Castiblanco J, Anaya JM. Major histocompatibility complex: Antigen processing and presentation. In: Anaya JM, Shoenfeld Y, Rojas-Villarraga A, et al., editors. Autoimmunity: From Bench to Bedside [Internet]. Bogota (Colombia): El Rosario University Press; 2013 Jul 18. Chapter 10. Available from: https://www.ncbi.nlm.nih.gov/books/NBK459467/"}
 synonym: "human leukocyte antigen class II" EXACT [] {EXACT="HLA class II"}
 synonym: "MHC class II" EXACT []
-is_a: IMMUNO:0000039 ! MHC
+is_a: IMM:0000039 ! MHC
 relationship: BFO:0000050 IMM:0000009 ! part of APC
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000031 ! antigen
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000031 ! antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000042
+id: IMM:0000042
 name: MHC III
-is_a: IMMUNO:0000039 ! MHC
+is_a: IMM:0000039 ! MHC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000043
+id: IMM:0000043
 name: receptor
 def: "proteins that recognize a molecule or molecules (ligands) with some degree of specificity to initiate a biochemical signaling cascade that couples to secondary messenger systems." [] {IAO:0000119="https://doi.org/10.1016/B978-0-12-801238-3.01906-1"}
 is_a: PR:000000001 ! protein
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000035 ! ligand
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000035 ! ligand
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000044
+id: IMM:0000044
 name: CD28
-is_a: IMMUNO:0000043 ! receptor
+is_a: IMM:0000043 ! receptor
 relationship: RO:0001025 IMM:0000014 ! located in lymphocyte
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000045
+id: IMM:0000045
 name: CD80/86
-is_a: IMMUNO:0000043 ! receptor
-relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMMUNO:0000044 ! CD28
+is_a: IMM:0000043 ! receptor
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000044 ! CD28
 relationship: RO:0000085 IMM:0000008 ! has function T-cell activation
-relationship: RO:0001025 IMMUNO:0000027 ! located in tumor cell surface
+relationship: RO:0001025 IMM:0000027 ! located in tumor cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000046
+id: IMM:0000046
 name: CTLA-4
 synonym: "CD152" EXACT []
 synonym: "Cytotoxic T-lymphocyte-associated protein 4" EXACT []
-is_a: IMMUNO:0000043 ! receptor
+is_a: IMM:0000043 ! receptor
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "Although CTLA-4 binds with B7 co-stimulatory receptors, it plays a negative role in the activation of T cells (1). Following the T-cell receptor (TCR) recognizing the antigen presented by the major histocompatibility complex (MHC) of APC, the CD28 of T cells binds to B7 of APC, which initiates a signaling cascade and leads to T-cell activation. CTLA-4s express and move to the cell membranes after T-cell activation, take over B7 from CD28, and suppress T-cell activity (2, 3). The coordination of CTLA-4 and CD28 maintains the balance of T-cell immunity in the body, especially after infection and the onset and progression of autoimmune disease." xsd:string {http://purl.org/dc/elements/1.1/source="PMID: 37497212"}
 
 [Term]
-id: IMMUNO:0000047
+id: IMM:0000047
 name: PD-1
 def: "A protein found on T cells (a type of immune cell) that helps keep the body’s immune responses in check. When PD-1 is bound to another protein called PD-L1, it helps keep T cells from killing other cells, including cancer cells. Some anticancer drugs, called immune checkpoint inhibitors, are used to block PD-1. When this protein is blocked, the “brakes” on the immune system are released and the ability of T cells to kill cancer cells is increased." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pd-1"}
 synonym: "programmed cell death protein 1" EXACT []
-is_a: IMMUNO:0000043 ! receptor
+is_a: IMM:0000043 ! receptor
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "keeps T cell from killing other cell" xsd:string
 
 [Term]
-id: IMMUNO:0000048
+id: IMM:0000048
 name: TCR
 synonym: "T-cell receptor" EXACT []
-is_a: IMMUNO:0000043 ! receptor
+is_a: IMM:0000043 ! receptor
 relationship: BFO:0000050 IMM:0000016 ! part of CD8+ lymphocyte
-relationship: RO:0001025 IMMUNO:0000026 ! located in lymphocyte cell surface
+relationship: RO:0001025 IMM:0000026 ! located in lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000049
+id: IMM:0000049
 name: therapy
 synonym: "therapeutic strategy" EXACT []
 is_a: BFO:0000015 ! process
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000051
+id: IMM:0000051
 name: CAR-T cell therapy
-is_a: IMMUNO:0000049 ! therapy
+is_a: IMM:0000049 ! therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000052
+id: IMM:0000052
 name: Cancer vaccine therapy
-is_a: IMMUNO:0000049 ! therapy
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+is_a: IMM:0000049 ! therapy
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000053
+id: IMM:0000053
 name: Checkpoint inhibitor therapy
-is_a: IMMUNO:0000049 ! therapy
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+is_a: IMM:0000049 ! therapy
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000054
+id: IMM:0000054
 name: Cytokine therapy
-is_a: IMMUNO:0000049 ! therapy
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+is_a: IMM:0000049 ! therapy
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000055
+id: IMM:0000055
 name: Monoclonal antibodies therapy
-is_a: IMMUNO:0000049 ! therapy
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+is_a: IMM:0000049 ! therapy
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000056
+id: IMM:0000056
 name: virus therapy
-is_a: IMMUNO:0000049 ! therapy
-relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMMUNO:0000022 ! immune system
+is_a: IMM:0000049 ! therapy
+relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000057
+id: IMM:0000057
 name: Oncolytic virus therapy
-is_a: IMMUNO:0000056 ! virus therapy
+is_a: IMM:0000056 ! virus therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
-id: IMMUNO:0000058
+id: IMM:0000058
 name: Radio-immunotherapy virus therapy
-is_a: IMMUNO:0000056 ! virus therapy
+is_a: IMM:0000056 ! virus therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -444,7 +444,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 id: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626
 name: requires existing system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
-domain: IMMUNO:0000049 ! therapy
+domain: IMM:0000049 ! therapy
 
 [Typedef]
 id: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6
