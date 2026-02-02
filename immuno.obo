@@ -64,6 +64,7 @@ id: IMM:0000010
 name: B cell
 is_a: IMM:0000009 ! APC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+property_value: IAO:0000116 "recognize intact antigen" xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
 
 [Term]
 id: IMM:0000011
@@ -87,28 +88,29 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 
 [Term]
 id: IMM:0000014
-name: lymphocyte
-synonym: "T-cell" EXACT []
+name: T-cell
+synonym: "lymphocyte" EXACT []
 is_a: CL:0000000 ! cell
 relationship: RO:0002002 IMM:0000026 ! has 2D boundary lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+property_value: IAO:0000116 "T cells recognize fragments of protein antigens that have been partly degraded inside the antigen-presenting cell. The peptide fragments are then carried to the surface of the presenting cell on special molecules called MHC proteins, which present the fragments to T cells." xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
 
 [Term]
 id: IMM:0000015
-name: CD4+ lymphocyte
-synonym: "CD4+ T cell" EXACT []
+name: CD4+ T cell
+synonym: "CD4+ lymphocyte" EXACT []
 synonym: "helper T cell" EXACT []
-is_a: IMM:0000014 ! lymphocyte
+is_a: IMM:0000014 ! T-cell
 relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000041 ! MHC II
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "interacts with antigens extracellularly, including in bacterial response" xsd:string
 
 [Term]
 id: IMM:0000016
-name: CD8+ lymphocyte
-synonym: "CD8+ T cell" EXACT []
+name: CD8+ T cell
+synonym: "CD8+ lymphocyte" EXACT []
 synonym: "cytotoxic T cell" EXACT [] {EXACT="CTL"}
-is_a: IMM:0000014 ! lymphocyte
+is_a: IMM:0000014 ! T-cell
 relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000040 ! MHC I
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
@@ -117,7 +119,7 @@ id: IMM:0000017
 name: NK cell
 synonym: "large granular lymphocyte" EXACT []
 synonym: "Natural Killer Cell" EXACT []
-is_a: IMM:0000014 ! lymphocyte
+is_a: IMM:0000014 ! T-cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -272,7 +274,7 @@ id: IMM:0000038
 name: CD8
 synonym: "cluster of differentiation 8" EXACT []
 is_a: PR:000000001 ! protein
-relationship: BFO:0000050 IMM:0000016 ! part of CD8+ lymphocyte
+relationship: BFO:0000050 IMM:0000016 ! part of CD8+ T cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -321,7 +323,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 id: IMM:0000044
 name: CD28
 is_a: IMM:0000043 ! receptor
-relationship: RO:0001025 IMM:0000014 ! located in lymphocyte
+relationship: RO:0001025 IMM:0000014 ! located in T-cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -356,7 +358,7 @@ id: IMM:0000048
 name: TCR
 synonym: "T-cell receptor" EXACT []
 is_a: IMM:0000043 ! receptor
-relationship: BFO:0000050 IMM:0000016 ! part of CD8+ lymphocyte
+relationship: BFO:0000050 IMM:0000016 ! part of CD8+ T cell
 relationship: RO:0001025 IMM:0000026 ! located in lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
@@ -419,6 +421,23 @@ id: IMM:0000058
 name: Radio-immunotherapy virus therapy
 is_a: IMM:0000056 ! virus therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000059
+name: regulatory T cell
+def: "A lymphocyte which actively suppress the function of conventional T cells as a key mechanism by which the immune system limits inappropriate or excessive responses." [] {IAO:0000119="PMID: 19390784"}
+synonym: "suppressor T cell" EXACT []
+synonym: "Tregs" EXACT []
+is_a: IMM:0000014 ! T-cell
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000062
+name: effector T cell
+def: "A T-cell which is activated by proliferation and differentiation." [] {IAO:0000119="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
+is_a: IMM:0000014 ! T-cell
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+property_value: IAO:0000116 "once activated, effector T cells act only at short range, either within a secondary lymphoid organ or after they have migrated into a site of infection." xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
 
 [Term]
 id: http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08
