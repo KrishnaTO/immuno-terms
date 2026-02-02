@@ -1,0 +1,602 @@
+format-version: 1.2
+data-version: releases/2025-12-12
+idspace: terms http://purl.org/dc/terms/ 
+ontology: cob
+property_value: owl:versionInfo "2025-12-12" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-5139-5557
+property_value: terms:contributor https://orcid.org/0000-0001-5809-9523
+property_value: terms:contributor https://orcid.org/0000-0001-8910-9851
+property_value: terms:contributor https://orcid.org/0000-0001-9189-9661
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0000-0001-9990-8331
+property_value: terms:contributor https://orcid.org/0000-0002-1604-3078
+property_value: terms:contributor https://orcid.org/0000-0002-2999-0103
+property_value: terms:contributor https://orcid.org/0000-0002-6601-2165
+property_value: terms:contributor https://orcid.org/0000-0002-7356-1779
+property_value: terms:contributor https://orcid.org/0000-0002-8457-6693
+property_value: terms:contributor https://orcid.org/0000-0002-8688-6599
+property_value: terms:contributor https://orcid.org/0000-0002-8844-9165
+property_value: terms:contributor https://orcid.org/0000-0003-1640-9989
+property_value: terms:contributor https://orcid.org/0000-0003-4423-4370
+property_value: terms:contributor https://orcid.org/0000-0003-4871-5569
+property_value: terms:contributor https://orcid.org/0009-0009-4008-3801
+property_value: terms:description "COB brings together key terms from a wide range of OBO projects to improve interoperability." xsd:string
+property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
+property_value: terms:title "Core Ontology for Biology and Biomedicine" xsd:string
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000011>))\nDeclaration(DataProperty(<http://purl.obolibrary.org/obo/COB_0000800>))\nDeclaration(DataProperty(<http://purl.obolibrary.org/obo/COB_0000801>))\n############################\n#   Data Properties\n############################\n\n# Data Property: <http://purl.obolibrary.org/obo/COB_0000800> (<http://purl.obolibrary.org/obo/COB_0000800>)\n\nDataPropertyDomain(<http://purl.obolibrary.org/obo/COB_0000800> <http://purl.obolibrary.org/obo/COB_0000011>)\n\n# Data Property: <http://purl.obolibrary.org/obo/COB_0000801> (<http://purl.obolibrary.org/obo/COB_0000801>)\n\nDataPropertyDomain(<http://purl.obolibrary.org/obo/COB_0000801> <http://purl.obolibrary.org/obo/BFO_0000040>)\n\n\n\n)
+
+[Term]
+id: BFO:0000015
+name: process
+
+[Term]
+id: BFO:0000016
+name: disposition
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+is_a: COB:0000502 ! characteristic
+
+[Term]
+id: BFO:0000023
+name: role
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000029
+name: site
+is_a: BFO:0000141 ! immaterial entity
+
+[Term]
+id: BFO:0000034
+name: function
+is_a: BFO:0000016 ! disposition
+
+[Term]
+id: BFO:0000040
+name: material entity
+property_value: IAO:0000116 "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." xsd:string
+
+[Term]
+id: BFO:0000141
+name: immaterial entity
+
+[Term]
+id: CHEBI:10545
+name: electron
+def: "Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV." []
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:24636
+name: proton
+def: "Nuclear particle of charge number +1, spin 1/2 and rest mass of 1.007276470(12) u." []
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:30222
+name: neutron
+def: "Nuclear particle of zero charge, spin 1/2 and rest mass of 1.008664904(14) u." []
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:33252
+name: atomic nucleus
+def: "A nucleus is the positively charged central portion of an atom, excluding the orbital electrons." []
+is_a: CHEBI:36342 ! subatomic particle
+relationship: BFO:0000051 CHEBI:24636 ! has part proton
+property_value: IAO:0000116 "Some people may be uncomfortable calling every proton an atomic nucleus" xsd:string
+property_value: IAO:0000116 "This is equivalent to CHEBI:33252" xsd:string
+
+[Term]
+id: CHEBI:36342
+name: subatomic particle
+def: "A particle smaller than an atom." []
+is_a: BFO:0000040 ! material entity
+disjoint_from: COB:0000011 ! atom
+
+[Term]
+id: COB:0000005
+name: obsolete elementary charge
+is_obsolete: true
+
+[Term]
+id: COB:0000011
+name: atom
+def: "A material entity consisting of exactly one atomic nucleus and the electron(s) orbiting it." []
+is_a: BFO:0000040 ! material entity
+disjoint_from: COB:0000013 ! molecule
+relationship: BFO:0000051 CHEBI:33252 ! has part atomic nucleus
+property_value: IAO:0000116 "This atom is closely related to ChEBI's atom, but not exactly equivalent to." xsd:string
+
+[Term]
+id: COB:0000013
+name: molecule
+def: "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom." []
+is_a: BFO:0000040 ! material entity
+relationship: BFO:0000051 COB:0000011 ! has part atom
+property_value: IAO:0000116 "This molecular entity is different than ChEBI's 'molecular entity'." xsd:string
+property_value: IAO:0000116 "We would like to have cardinality restrictions on the logic, but there are some technical limitations." xsd:string
+
+[Term]
+id: COB:0000014
+name: obsolete macromolecular entity
+is_obsolete: true
+
+[Term]
+id: COB:0000020
+name: obsolete subcellular structure
+is_obsolete: true
+replaced_by: GO:0110165
+
+[Term]
+id: COB:0000021
+name: gross anatomical part
+def: "A part of a multicellular organism that is a collection of cell components that are not all contained in one cell." []
+is_a: UBERON:0000465 ! material anatomical entity
+
+[Term]
+id: COB:0000022
+name: organism
+def: "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome" []
+is_a: UBERON:0000465 ! material anatomical entity
+property_value: IAO:0000116 "'Maximal functionally integrated unit' is intended to express unity, which Barry considers synonymous with BFO 'object'." xsd:string
+property_value: IAO:0000116 "Includes virus - we will later have a class for cellular organisms." xsd:string
+
+[Term]
+id: COB:0000026
+name: processed material entity
+def: "A material entity processed by human activity with an intent to produce it." []
+is_a: BFO:0000040 ! material entity
+relationship: OBI:0000312 COB:0000110 ! is specified output of material processing
+property_value: IAO:0000116 "In the COB 2024 workshop there was much disagreement about this label." xsd:string
+
+[Term]
+id: COB:0000032
+name: obsolete geographical location
+is_obsolete: true
+
+[Term]
+id: COB:0000035
+name: completely executed planned process
+is_a: COB:0000082 ! planned process
+disjoint_from: COB:0000083 ! failed planned process
+relationship: BFO:0000055 OBI:0000260 ! realizes plan
+
+[Term]
+id: COB:0000049
+name: nucleic acid chain
+def: "A molecule that consists of nucleotides (unmodified nucleotide residues and/or modified nucleotide residues) linked by phosphodiester bonds or derivatives of such bonds." []
+is_a: COB:0000013 ! molecule
+
+[Term]
+id: COB:0000056
+name: obsolete immaterial anatomical entity
+is_obsolete: true
+replaced_by: UBERON:0000466
+
+[Term]
+id: COB:0000073
+name: obsolete gene product
+is_obsolete: true
+
+[Term]
+id: COB:0000077
+name: obsolete action specification
+is_obsolete: true
+replaced_by: IAO:0000007
+
+[Term]
+id: COB:0000080
+name: complex of molecules
+def: "A complex of two or more molecules that are not covalently bound." []
+is_a: BFO:0000040 ! material entity
+relationship: BFO:0000051 COB:0000013 ! has part molecule
+
+[Term]
+id: COB:0000082
+name: planned process
+def: "A process that is initiated by an agent who intends to carry out a plan to achieve an objective through one or more actions as described in a plan specification." []
+is_a: BFO:0000015 ! process
+
+[Term]
+id: COB:0000083
+name: failed planned process
+is_a: COB:0000082 ! planned process
+
+[Term]
+id: COB:0000110
+name: material processing
+def: "A completely executed planned process that intends to output material entities from input material entities" []
+is_a: COB:0000035 ! completely executed planned process
+relationship: OBI:0000293 BFO:0000040 ! has specified input material entity
+relationship: OBI:0000299 BFO:0000040 ! has specified output material entity
+
+[Term]
+id: COB:0000116
+name: obsolete cellular membrane
+is_obsolete: true
+
+[Term]
+id: COB:0000122
+name: obsolete physical information carrier
+is_obsolete: true
+
+[Term]
+id: COB:0000502
+name: characteristic
+
+[Term]
+id: COB:0001000
+name: exposure of organism
+def: "A process during which an organism comes into contact with another entity." []
+is_a: BFO:0000015 ! process
+relationship: RO:0000057 COB:0000022 ! has participant organism
+
+[Term]
+id: COB:0001300
+name: device
+def: "A processed material entity which is designed to be capable of a process." []
+is_a: COB:0000026 ! processed material entity
+relationship: RO:0002215 BFO:0000015 ! capable of process
+
+[Term]
+id: ENVO:01000813
+name: geophysical entity
+def: "A material part of an astronomical body." []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: ENVO:01001110
+name: ecosystem
+def: "An environmental system which includes both living and non-living components." []
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: ENVO:02500000
+name: environmental system process
+def: "A process in which includes the components of an environmental system as participants." []
+is_a: BFO:0000015 ! process
+
+[Term]
+id: GO:0003674
+name: gene product or complex activity
+def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs." []
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "This is the same as GO molecular function" xsd:string
+
+[Term]
+id: GO:0005575
+name: cellular_component
+def: "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." []
+is_a: BFO:0000040 ! material entity
+union_of: GO:0032991 ! protein-containing complex
+union_of: GO:0044423 ! virion component
+union_of: GO:0110165 ! cellular anatomical entity
+
+[Term]
+id: GO:0008150
+name: biological process
+def: "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." []
+is_a: BFO:0000015 ! process
+relationship: BFO:0000051 GO:0003674 ! has part gene product or complex activity
+
+[Term]
+id: GO:0032991
+name: protein-containing complex
+def: "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together." []
+is_a: COB:0000080 ! complex of molecules
+is_a: GO:0005575 ! cellular_component
+relationship: BFO:0000051 PR:000000001 ! has part protein
+property_value: IAO:0000116 "This is not covalently bonded, which conflicts with changes to the parent definition." xsd:string
+
+[Term]
+id: GO:0044423
+name: virion component
+def: "Any constituent part of a virion, a complete fully infectious extracellular virus particle." []
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0110165
+name: cellular anatomical entity
+def: "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex." []
+is_a: GO:0005575 ! cellular_component
+is_a: UBERON:0000465 ! material anatomical entity
+relationship: BFO:0000051 COB:0000013 ! has part molecule
+property_value: IAO:0000116 "Components are larger than individual macromolecular entities. It is tricky to define distinction between 'cell component' and 'macromolecular entity', e.g. ribosome. We would like to exclude most protein complexes." xsd:string
+property_value: IAO:0000116 "Overlaps with some cellular components from GO" xsd:string
+
+[Term]
+id: IAO:0000005
+name: objective specification
+def: "A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved." []
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000007
+name: action specification
+def: "A directive information entity that describes an action the bearer will take." []
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000027
+name: data item
+def: "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements." []
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000030
+name: information content entity
+def: "A generically dependent continuant that is about some thing." []
+property_value: IAO:0000116 "Pier: 'data, information or knowledge'. OR 'representation'" xsd:string
+
+[Term]
+id: IAO:0000033
+name: directive information entity
+def: "An information content entity whose concretizations indicate to their bearer how to realize them in a process." []
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: IAO:0000104
+name: plan specification
+def: "A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified." []
+is_a: IAO:0000033 ! directive information entity
+
+[Term]
+id: IAO:0000109
+name: measurement datum
+def: "A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device." []
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: IMMUNO:0000000
+name: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+is_a: UBERON:0000465 ! material anatomical entity
+property_value: IAO:0000116 "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc." xsd:string
+property_value: IAO:0000116 "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism." xsd:string
+
+[Term]
+id: MOP:0000543
+name: physico-chemical process
+def: "A process in which at least one of the participants is a molecule." []
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "This is meant to capture processes that are more fundamental than macromolecular activities" xsd:string
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organism
+is_a: COB:0000022 ! organism
+
+[Term]
+id: OBI:0000066
+name: investigation
+def: "a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s)." []
+is_a: COB:0000035 ! completely executed planned process
+
+[Term]
+id: OBI:0000070
+name: assay
+def: "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it." []
+is_a: COB:0000035 ! completely executed planned process
+relationship: OBI:0000293 BFO:0000040 ! has specified input material entity
+relationship: OBI:0000299 IAO:0000027 ! has specified output data item
+
+[Term]
+id: OBI:0000260
+name: plan
+def: "A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a completely executed planned process." []
+is_a: BFO:0000017 ! realizable entity
+relationship: RO:0000059 IAO:0000104 ! concretizes plan specification
+
+[Term]
+id: OBI:0200000
+name: data transformation
+def: "A completely executed planned process that produces output data from input data." []
+is_a: COB:0000035 ! completely executed planned process
+relationship: OBI:0000293 IAO:0000027 ! has specified input data item
+relationship: OBI:0000299 IAO:0000027 ! has specified output data item
+
+[Term]
+id: PATO:0000125
+name: mass
+def: "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter." []
+is_a: COB:0000502 ! characteristic
+
+[Term]
+id: PATO:0002193
+name: electric charge
+def: "A molecular quality that inheres in a molecular entity by virtue of the overall electric charge of the molecule, which is due to a comparison between the total number of electrons and the total number of protons." []
+is_a: COB:0000502 ! characteristic
+
+[Term]
+id: PCO:0000000
+name: collection of organisms
+def: "A material entity that consists of two or more organisms, viruses, or viroids." []
+is_a: BFO:0000040 ! material entity
+relationship: BFO:0000051 COB:0000022 ! has part organism
+
+[Term]
+id: PO:0025131
+name: plant anatomical entity
+def: "An anatomical entity that is or was part of a plant." []
+is_a: UBERON:0000465 ! material anatomical entity
+
+[Term]
+id: PR:000000001
+name: protein
+def: "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof." []
+is_a: PR:000018263 ! amino acid chain
+
+[Term]
+id: PR:000018263
+name: amino acid chain
+def: "An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." []
+is_a: COB:0000013 ! molecule
+
+[Term]
+id: UBERON:0000465
+name: material anatomical entity
+def: "Anatomical entity that has mass." []
+is_a: BFO:0000040 ! material entity
+is_a: UBERON:0001062 ! anatomical entity
+union_of: COB:0000021 ! gross anatomical part
+union_of: COB:0000022 ! organism
+union_of: GO:0110165 ! cellular anatomical entity
+union_of: IMMUNO:0000000 ! cell
+
+[Term]
+id: UBERON:0000466
+name: immaterial anatomical entity
+def: "Anatomical entity that has no mass." []
+is_a: BFO:0000141 ! immaterial entity
+is_a: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: UBERON:0001062
+name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." []
+union_of: UBERON:0000465 ! material anatomical entity
+union_of: UBERON:0000466 ! immaterial anatomical entity
+
+[Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+
+[Typedef]
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+
+[Typedef]
+id: BFO:0000055
+name: realizes
+def: "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" []
+domain: BFO:0000015 ! process
+range: BFO:0000017 ! realizable entity
+
+[Typedef]
+id: COB:0000016
+name: executed by
+
+[Typedef]
+id: COB:0000081
+name: intended to realize
+
+[Typedef]
+id: COB:0000084
+name: has plan
+
+[Typedef]
+id: COB:0000085
+name: intended plan process type
+
+[Typedef]
+id: IAO:0000136
+name: is about
+domain: IAO:0000030 ! information content entity
+
+[Typedef]
+id: OBI:0000293
+name: has specified input
+def: "The inverse property of is specified input of" []
+domain: COB:0000035 ! completely executed planned process
+
+[Typedef]
+id: OBI:0000295
+name: is specified input of
+def: "A relation between a completely executed planned process and a continuant participating in that process that is not created during the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of." []
+range: COB:0000035 ! completely executed planned process
+
+[Typedef]
+id: OBI:0000299
+name: has specified output
+def: "The inverse property of is specified output of" []
+domain: COB:0000035 ! completely executed planned process
+
+[Typedef]
+id: OBI:0000312
+name: is specified output of
+def: "A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of." []
+range: COB:0000035 ! completely executed planned process
+
+[Typedef]
+id: RO:0000052
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+
+[Typedef]
+id: RO:0000053
+name: has characteristic
+def: "Inverse of characteristic_of" []
+
+[Typedef]
+id: RO:0000056
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+
+[Typedef]
+id: RO:0000057
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+
+[Typedef]
+id: RO:0000058
+name: is concretized as
+def: "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants." []
+
+[Typedef]
+id: RO:0000059
+name: concretizes
+def: "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant." []
+
+[Typedef]
+id: RO:0001000
+name: derives from
+def: "a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" []
+
+[Typedef]
+id: RO:0001015
+name: location of
+def: "a relation between two independent continuants, the location and the target, in which the target is entirely within the location" []
+
+[Typedef]
+id: RO:0001025
+name: located in
+def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
+
+[Typedef]
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process." []
+range: BFO:0000015 ! process
+
+[Typedef]
+id: RO:0002219
+name: surrounded by
+def: "x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x" []
+
+[Typedef]
+id: RO:0002221
+name: surrounds
+def: "inverse of surrounded by" []
+
+[Typedef]
+id: RO:0002233
+name: has input
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+domain: BFO:0000015 ! process
+
+[Typedef]
+id: RO:0002234
+name: has output
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
+
+[Typedef]
+id: RO:0002333
+name: enabled by
+def: "inverse of enables" []
+
