@@ -3,7 +3,7 @@ import: http://purl.obolibrary.org/obo/cob/releases/2025-12-12/cob.owl
 import: http://purl.obolibrary.org/obo/ro/releases/2025-12-17/ro.owl
 import: http://purl.org/dc/elements/1.1/
 ontology: urn:absolute:immunology-cancer
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000046>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000036> (<http://purl.obolibrary.org/obo/IMM_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000045> (<http://purl.obolibrary.org/obo/IMM_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMM_0000046>)))\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000034>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000046>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000028> (<http://purl.obolibrary.org/obo/IMM_0000028>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000033> <http://purl.obolibrary.org/obo/IMM_0000034>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000036> (<http://purl.obolibrary.org/obo/IMM_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000045> (<http://purl.obolibrary.org/obo/IMM_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMM_0000046>)))\n\n\n)
 
 [Term]
 id: IMM:0000001
@@ -176,7 +176,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 [Term]
 id: IMM:0000025
 name: cell surface
-is_a: GO:0005575 ! cellular_component
+is_a: UBERON:0000466 ! immaterial anatomical entity
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -197,6 +197,7 @@ id: IMM:0000028
 name: pMHC
 synonym: "peptide-major histocompatibility complex" EXACT []
 is_a: GO:0032991 ! protein-containing complex
+is_a: IMM:0000032 ! tumor antigen
 relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000048 ! TCR
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
@@ -230,7 +231,7 @@ property_value: seeAlso "TA" xsd:string
 id: IMM:0000033
 name: tumor associated antigen
 synonym: "TAA" EXACT []
-is_a: IMM:0000032 ! tumor antigen
+is_a: BFO:0000016 ! disposition
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "elevated levels on tumor cells, but are also expressed at lower levels on healthy cells" xsd:string {IAO:0000119="10.1007/s11033-021-06752-9"}
 
@@ -238,7 +239,7 @@ property_value: IAO:0000116 "elevated levels on tumor cells, but are also expres
 id: IMM:0000034
 name: tumor-specific antigen
 synonym: "TSA" EXACT []
-is_a: IMM:0000032 ! tumor antigen
+is_a: BFO:0000016 ! disposition
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "found on cancer cells only, not on healthy cells" xsd:string {IAO:0000119="10.1007/s11033-021-06752-9"}
 
@@ -463,7 +464,6 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 id: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626
 name: requires existing system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
-domain: IMM:0000049 ! therapy
 
 [Typedef]
 id: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6
