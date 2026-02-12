@@ -59,7 +59,7 @@ name: APC
 def: "A type of immune cell that boosts immune responses by showing antigens on its surface to other cells of the immune system." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/antigen-presenting-cell"}
 synonym: "Antigen-presenting Cell" EXACT []
 is_a: CL:0000000 ! cell
-relationship: http://purl.obolibrary.org/obo/IMM_1631639b_0a65_4003_bc07_b1ddb0810fff IMM:0000021 ! cytokine
+relationship: RO:0003000 IMM:0000021 ! produces cytokine
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -264,7 +264,7 @@ id: IMM:0000036
 name: PD-L1
 def: "A protein that acts as a kind of “brake” to keep the body’s immune responses under control. PD-L1 may be found on some normal cells and in higher-than-normal amounts on some types of cancer cells. When PD-L1 binds to another protein called PD-1 (a protein found on T cells), it keeps T cells from killing the PD-L1-containing cells, including the cancer cells. Anticancer drugs called immune checkpoint inhibitors bind to PD-L1 and block its binding to PD-1. This releases the “brakes” on the immune system and leaves T cells free to kill cancer cells." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pd-l1"}
 synonym: "programmed cell death protein ligand 1" EXACT []
-relationship: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6 IMM:0000047 ! PD-1
+relationship: RO:0018029 IMM:0000047 ! is antagonist of PD-1
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "Attached to cancer cell surface, and binds to PD-1 receptor on T-cell to inhibit programmed cell death." xsd:string {IAO:0000119="https://doi.org/10.3389/fphar.2020.00722"}
 
@@ -471,18 +471,8 @@ is_a: BFO:0000029 ! site
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Typedef]
-id: http://purl.obolibrary.org/obo/IMM_1631639b_0a65_4003_bc07_b1ddb0810fff
-name: produces
-property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
-
-[Typedef]
 id: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626
 name: requires existing system
-property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
-
-[Typedef]
-id: http://purl.obolibrary.org/obo/IMM_8bd8a666_08a9_4c35_855e_419700beb6f6
-name: inhibits
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Typedef]
