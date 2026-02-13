@@ -59,7 +59,6 @@ name: APC
 def: "A type of immune cell that boosts immune responses by showing antigens on its surface to other cells of the immune system." [] {IAO:0000119="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/antigen-presenting-cell"}
 synonym: "Antigen-presenting Cell" EXACT []
 is_a: BFO:0000016 ! disposition
-relationship: RO:0003000 IMM:0000021 ! produces cytokine
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -151,7 +150,6 @@ id: IMM:0000020
 name: cancer cell
 synonym: "malignant cell" EXACT []
 is_a: IMM:0000018 ! tumor cell
-relationship: BFO:0000066 IMM:0000067 ! occurs in cancer
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -498,6 +496,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 id: IMM:0000067
 name: cancer
 is_a: GO:0008150 ! biological process
+relationship: BFO:0000066 IMM:0000020 ! occurs in cancer cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
