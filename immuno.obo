@@ -3,7 +3,7 @@ import: http://purl.obolibrary.org/obo/cob/releases/2025-12-12/cob.owl
 import: http://purl.obolibrary.org/obo/ro/releases/2025-12-17/ro.owl
 import: http://purl.org/dc/elements/1.1/
 ontology: urn:absolute:immunology-cancer
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0005634>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000032>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000034>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000046>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000061>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000062>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001015>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002206>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000003> (<http://purl.obolibrary.org/obo/IMM_0000003>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08>))))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000015> (<http://purl.obolibrary.org/obo/IMM_0000015>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000015> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000061> <http://purl.obolibrary.org/obo/IMM_0000062>))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000028> (<http://purl.obolibrary.org/obo/IMM_0000028>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000033> <http://purl.obolibrary.org/obo/IMM_0000034>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000032> (<http://purl.obolibrary.org/obo/IMM_0000032>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000033> <http://purl.obolibrary.org/obo/IMM_0000034>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000036> (<http://purl.obolibrary.org/obo/IMM_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000040> (<http://purl.obolibrary.org/obo/IMM_0000040>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002206> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/GO_0005634>))))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000045> (<http://purl.obolibrary.org/obo/IMM_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMM_0000046>)))\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/COB_0000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0005634>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000012>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000032>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000034>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000046>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000061>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000062>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_0000063>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001001>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001015>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002206>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000003> (<http://purl.obolibrary.org/obo/IMM_0000003>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08>))))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000015> (<http://purl.obolibrary.org/obo/IMM_0000015>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000015> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000061> <http://purl.obolibrary.org/obo/IMM_0000062>))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000028> (<http://purl.obolibrary.org/obo/IMM_0000028>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000033> <http://purl.obolibrary.org/obo/IMM_0000034>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000032> (<http://purl.obolibrary.org/obo/IMM_0000032>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000033> <http://purl.obolibrary.org/obo/IMM_0000034>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000036> (<http://purl.obolibrary.org/obo/IMM_0000036>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IMM_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COB_0000049>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000040> (<http://purl.obolibrary.org/obo/IMM_0000040>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002206> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/GO_0005634>))))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000045> (<http://purl.obolibrary.org/obo/IMM_0000045>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000045> ObjectIntersectionOf(ObjectComplementOf(<http://purl.obolibrary.org/obo/IMM_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f> <http://purl.obolibrary.org/obo/IMM_0000046>)))\n\n# Class: <http://purl.obolibrary.org/obo/IMM_0000063> (<http://purl.obolibrary.org/obo/IMM_0000063>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IMM_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001001> ObjectUnionOf(<http://purl.obolibrary.org/obo/IMM_0000011> <http://purl.obolibrary.org/obo/IMM_0000012>)))\n\n\n)
 
 [Term]
 id: IMM:0000001
@@ -151,6 +151,7 @@ id: IMM:0000020
 name: cancer cell
 synonym: "malignant cell" EXACT []
 is_a: IMM:0000018 ! tumor cell
+relationship: BFO:0000066 IMM:0000067 ! occurs in cancer
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -314,7 +315,6 @@ def: "expressed on antigen presenting cells (APC) such as B lymphocytes, dendrit
 synonym: "human leukocyte antigen class II" EXACT [] {EXACT="HLA class II"}
 synonym: "MHC class II" EXACT []
 is_a: IMM:0000039 ! MHC
-relationship: BFO:0000050 IMM:0000009 ! part of APC
 relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000031 ! antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
@@ -466,6 +466,39 @@ def: "A T-cell which is activated by proliferation and differentiation." [] {IAO
 is_a: IMM:0000014 ! T cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "once activated, effector T cells act only at short range, either within a secondary lymphoid organ or after they have migrated into a site of infection." xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
+
+[Term]
+id: IMM:0000063
+name: monocyte
+is_a: CL:0000000 ! cell
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000064
+name: tumor immune microenvironment
+synonym: "TIME" EXACT []
+is_a: http://purl.obolibrary.org/obo/IMM_c4929609_cb1d_4dd3_aff6_7a231eae299a ! microenvironment
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000065
+name: tumor specific MHC II
+synonym: "tsMHC II" EXACT []
+is_a: IMM:0000041 ! MHC II
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000066
+name: tumor specific MHC I
+synonym: "tsHMC-I" EXACT []
+is_a: IMM:0000040 ! MHC I
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000067
+name: cancer
+is_a: GO:0008150 ! biological process
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
 id: http://purl.obolibrary.org/obo/IMM_173aaea8_337f_4231_bae9_40195a31ca08
