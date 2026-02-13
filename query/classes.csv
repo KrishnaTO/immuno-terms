@@ -1,0 +1,69 @@
+id,label,definition
+IMM:0000042,MHC III,
+IMM:0000001,inhibitor,attenuate inductive signals and further indicate that these receptors play a very important regulatory role in biology.
+IMM:0000061,naive T cell,
+IMM:0000013,CAR-T cell,
+IMM:0000066,tumor specific MHC I,
+IMM:0000036,PD-L1,"A protein that acts as a kind of “brake” to keep the body’s immune responses under control. PD-L1 may be found on some normal cells and in higher-than-normal amounts on some types of cancer cells. When PD-L1 binds to another protein called PD-1 (a protein found on T cells), it keeps T cells from killing the PD-L1-containing cells, including the cancer cells. Anticancer drugs called immune checkpoint inhibitors bind to PD-L1 and block its binding to PD-1. This releases the “brakes” on the immune system and leaves T cells free to kill cancer cells."
+IMM:0000049,therapy,
+IMM:0000056,virus therapy,
+IMM:0000025,cell surface,
+IMM:0000035,ligand,"A molecule that binds to another molecule, used especially to refer to a small molecule that binds specifically to a larger molecule"
+IMM:0000004,tumor microenvironment,"The composition of the tumor microenvironment varies between tumor types, but hallmark features include immune cells, stromal cells, blood vessels, and extracellular matrix."
+IMM:0000011,dendritic cell,
+IMM:0000047,PD-1,"A protein found on T cells (a type of immune cell) that helps keep the body’s immune responses in check. When PD-1 is bound to another protein called PD-L1, it helps keep T cells from killing other cells, including cancer cells. Some anticancer drugs, called immune checkpoint inhibitors, are used to block PD-1. When this protein is blocked, the “brakes” on the immune system are released and the ability of T cells to kill cancer cells is increased."
+IMM:0000040,MHC I,expressed on all nucleated cells and platelets (except those of the central nervous system)
+IMM:0000059,regulatory T cell,A lymphocyte which actively suppress the function of conventional T cells as a key mechanism by which the immune system limits inappropriate or excessive responses.
+IMM:0000060,host rejection,
+IMM:0000030,pMHC class II,
+IMM:0000018,tumor cell,
+IMM:0000024,lymph node,
+IMM:0000054,Cytokine therapy,
+IMM:0000067,cancer,
+IMM:0000033,tumor associated antigen,
+IMM:0000046,CTLA-4,
+IMM:0000022,immune system,
+IMM:0000005,innate immunity,"encompassed of different components such as several physical barriers (tight junctions in the mucus, epithelial, skin, and mucous membrane surfaces), anatomical barriers, epithelial and phagocytic cell enzymes such as lysozyme, phagocytes (monocytes, neutrophils, macrophages), inflammation-mediated serum proteins (complement, C-reactive protein, lectin and ficolins), surface and phagocyte granule antimicrobial peptides (defensins and cathelicidin), cell receptors that sense microorganisms and signal a defensive response (Toll-like receptors)."
+IMM:0000017,NK cell,
+IMM:0000041,MHC II,"expressed on antigen presenting cells (APC) such as B lymphocytes, dendritic cells, macrophages, monocytes, Langerhans cells, endothelial cells, and thymic epithelial cells."
+IMM:0000053,Checkpoint inhibitor therapy,
+IMM:0000029,pMHC class I,
+IMM:0000012,macrophage,
+IMM:0000065,tumor specific MHC II,
+IMM:0000044,CD28,
+IMM:0000051,CAR-T cell therapy,
+IMM:0000034,tumor-specific antigen,
+IMM:0000039,MHC,
+IMM:0000003,immune evasion,
+IMM:0000010,B cell,
+IMM:0000023,tumor,An abnormal mass of tissue that forms when cells grow and divide more than they should or do not die when they should.
+IMM:0000008,T-cell activation,
+IMM:0000015,CD4+ T cell,
+IMM:0000028,pMHC,
+IMM:0000058,Radio-immunotherapy virus therapy,
+IMM:0000064,tumor immune microenvironment,
+IMM:0000002,checkpoint inhibitor,"type of monoclonal antibody, a lab-made protein designed to block checkpoint proteins that act like switches to turn the immune response on or off."
+IMM:0000062,effector T cell,A T-cell which is activated by proliferation and differentiation.
+IMM:0000032,tumor antigen,
+IMM:0000045,CD80/86,
+IMM:0000037,antibody,A protein made by plasma cells (a type of white blood cell) in response to an antigen
+IMM:0000057,Oncolytic virus therapy,
+IMM:0000021,cytokine,small secreted proteins released by cells have a specific effect on the interactions and communications between cells
+IMM:0000026,lymphocyte cell surface,
+IMM:0000009,APC,A type of immune cell that boosts immune responses by showing antigens on its surface to other cells of the immune system.
+IMM:0000016,CD8+ T cell,
+IMM:0000052,Cancer vaccine therapy,
+IMM:0000031,antigen,"small molecular components of cells or non-cellular biological materials. Most often, they are parts of membrane or surface proteins of cells and non-cellular pathogens such as viruses."
+IMM:0000007,rapid cell proliferation,
+IMM:0000019,benign cell,
+IMM:0000020,cancer cell,
+IMM:0000043,receptor,proteins that recognize a molecule or molecules (ligands) with some degree of specificity to initiate a biochemical signaling cascade that couples to secondary messenger systems.
+IMM:0000050,microenvironment,
+IMM:0000063,monocyte,
+IMM:0000048,TCR,
+IMM:0000055,Monoclonal antibodies therapy,
+IMM:0000068,BCR,
+IMM:0000038,CD8,
+IMM:0000014,T cell,
+IMM:0000027,tumor cell surface,
+IMM:0000006,immune response,
