@@ -367,7 +367,7 @@ property_value: IAO:0000116 "keeps T cell from killing other cell" xsd:string
 [Term]
 id: IMM:0000048
 name: TCR
-synonym: "T-cell receptor" EXACT []
+synonym: "T cell receptor" EXACT []
 is_a: IMM:0000043 ! receptor
 relationship: BFO:0000050 IMM:0000016 ! part of CD8+ T cell
 relationship: RO:0001025 IMM:0000026 ! located in lymphocyte cell surface
@@ -497,6 +497,14 @@ id: IMM:0000067
 name: cancer
 is_a: GO:0008150 ! biological process
 relationship: BFO:0000066 IMM:0000020 ! occurs in cancer cell
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000068
+name: BCR
+synonym: "B cell receptor" EXACT []
+is_a: IMM:0000043 ! receptor
+relationship: BFO:0000050 IMM:0000010 ! part of B cell
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
