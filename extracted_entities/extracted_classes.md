@@ -35,18 +35,18 @@
 
 ## Lymphoid Lineage
 
-- [ ] CD4⁺ T cells
-- [ ] CD8⁺ T cells
-- [ ] Cytotoxic T lymphocytes (CTLs)
-- [ ] Regulatory T cells (Tregs)
-- [ ] Natural killer (NK) cells
+- [x] CD4⁺ T cells
+- [x] CD8⁺ T cells
+- [x] Cytotoxic T lymphocytes (CTLs)
+- [x] Regulatory T cells (Tregs)
+- [x] Natural killer (NK) cells
 - [ ] Pro-B cells
 
 ## Myeloid Lineage
 
-- [ ] Dendritic cells (DCs)
-- [ ] Macrophages
-- [ ] Monocytes
+- [x] Dendritic cells (DCs)
+- [x] Macrophages
+- [x] Monocytes
 - [ ] Neutrophils
 - [ ] Myeloid-derived suppressor cells (MDSCs)
 
@@ -54,9 +54,9 @@
 
 # IV. Immune Checkpoints
 
-- [ ] CTLA-4
-- [ ] PD-1
-- [ ] PD-L1
+- [x] CTLA-4
+- [x] PD-1
+- [x] PD-L1
 - [ ] PD-L2
 - [ ] HLA-G
 - [ ] IDO1
@@ -89,15 +89,15 @@ Alternate Names:
 
 ## Co-stimulatory Molecules
 
-- [ ] CD28
-- [ ] CD80
-- [ ] CD86
+- [x] CD28
+- [x] CD80
+- [x] CD86
 
 ## Antigen Presentation
 
-- [ ] MHC Class I
-- [ ] MHC Class II
-- [ ] tsMHC-II
+- [x] MHC Class I
+- [x] MHC Class II
+- [x] tsMHC-II
 
 ## Pattern Recognition Receptors
 
@@ -114,8 +114,8 @@ Alternate Names:
 
 ## Other Receptors
 
-- [ ] TCR
-- [ ] BCR
+- [x] TCR
+- [x] BCR
 - [ ] NKG2D
 - [ ] FZD (Frizzled receptor)
 - [ ] CCR5
@@ -177,7 +177,7 @@ Alternate Names:
 
 - [ ] Antigen presentation
 - [ ] Immune surveillance
-- [ ] Immune evasion
+- [x] Immune evasion
 - [ ] Cytokine secretion
 
 ## Tumor Biology

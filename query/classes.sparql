@@ -3,10 +3,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX OBO: <http://www.geneontology.org/formats/oboInOwl#>
 PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
 
-SELECT DISTINCT ?id ?label ?definition
+SELECT DISTINCT ?id ?label ?synonym ?definition
 WHERE {
     ?disease a owl:Class .
     ?disease rdfs:label ?label .
+    OPTIONAL{?disease OBO:hasExactSynonym ?synonym .}
 
     ?disease OBO:id ?id .
     OPTIONAL { ?disease IAO:0000115 ?definition . }

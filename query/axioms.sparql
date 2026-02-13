@@ -1,0 +1,17 @@
+PREFIX IMM: <http://purl.obolibrary.org/obo/IMM_>
+PREFIX OBO: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?id ?label ?synonym ?object
+WHERE {
+
+
+  ?subject OBO:id ?id .
+  ?subject rdfs:label ?label .
+  optional{?subject OBO:hasExactSynonym ?synonym .}
+  OPTIONAL { ?subject IAO:0000115 ?definition . }
+  optional{?subject rdfs:subClassOf ?object .}
+
+  FILTER (CONTAINS(?id, "IMM:"))
+}

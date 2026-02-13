@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+PREFIX OBO: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX DOID: <http://purl.obolibrary.org/obo/DOID_>
+
+SELECT DISTINCT ?id ?label ?definition
+WHERE {
+  {
+    ?disease rdfs:subClassOf* DOID:417 .    
+    ?disease rdfs:label ?label .
+  
+    ?disease OBO:id ?id .
+    ?disease IAO:0000115 ?definition .
+} UNION
+{
+  ?disease rdfs:label ?label .
+  ?disease OBO:id ?id .
+  ?disease IAO:0000115 ?definition .
+  FILTER (CONTAINS(LCASE(?label), "autoimmune"))
+}
+}

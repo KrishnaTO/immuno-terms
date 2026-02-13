@@ -1,0 +1,133 @@
+id,label,synonym,object
+IMM:0000040,MHC I,MHC class I,_:b0
+IMM:0000040,MHC I,MHC class I,_:b1
+IMM:0000040,MHC I,MHC class I,http://purl.obolibrary.org/obo/IMM_0000039
+IMM:0000040,MHC I,human leukocyte antigen class I,_:b0
+IMM:0000040,MHC I,human leukocyte antigen class I,_:b1
+IMM:0000040,MHC I,human leukocyte antigen class I,http://purl.obolibrary.org/obo/IMM_0000039
+IMM:0000045,CD80/86,,_:b2
+IMM:0000045,CD80/86,,_:b3
+IMM:0000045,CD80/86,,_:b4
+IMM:0000045,CD80/86,,_:b5
+IMM:0000045,CD80/86,,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000005,innate immunity,,http://purl.obolibrary.org/obo/UPHENO_0001001
+IMM:0000002,checkpoint inhibitor,,http://purl.obolibrary.org/obo/IMM_0000001
+IMM:0000007,rapid cell proliferation,,_:b6
+IMM:0000007,rapid cell proliferation,,http://purl.obolibrary.org/obo/BFO_0000034
+IMM:0000012,macrophage,,_:b7
+IMM:0000012,macrophage,,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000057,Oncolytic virus therapy,,http://purl.obolibrary.org/obo/IMM_0000056
+IMM:0000046,CTLA-4,Cytotoxic T-lymphocyte-associated protein 4,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000046,CTLA-4,CD152,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000033,tumor associated antigen,TAA,http://purl.obolibrary.org/obo/BFO_0000016
+IMM:0000026,lymphocyte cell surface,,http://purl.obolibrary.org/obo/IMM_0000025
+IMM:0000028,pMHC,peptide-major histocompatibility complex,_:b8
+IMM:0000028,pMHC,peptide-major histocompatibility complex,_:b9
+IMM:0000028,pMHC,peptide-major histocompatibility complex,_:b10
+IMM:0000028,pMHC,peptide-major histocompatibility complex,http://purl.obolibrary.org/obo/GO_0032991
+IMM:0000031,antigen,,http://purl.obolibrary.org/obo/COB_0000013
+IMM:0000066,tumor specific MHC I,tsHMC-I,http://purl.obolibrary.org/obo/IMM_0000040
+IMM:0000015,CD4+ T cell,CD4+ lymphocyte,_:b11
+IMM:0000015,CD4+ T cell,CD4+ lymphocyte,_:b12
+IMM:0000015,CD4+ T cell,CD4+ lymphocyte,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000015,CD4+ T cell,helper T cell,_:b11
+IMM:0000015,CD4+ T cell,helper T cell,_:b12
+IMM:0000015,CD4+ T cell,helper T cell,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000032,tumor antigen,TA,_:b13
+IMM:0000032,tumor antigen,TA,http://purl.obolibrary.org/obo/IMM_0000031
+IMM:0000037,antibody,,_:b14
+IMM:0000037,antibody,,http://purl.obolibrary.org/obo/PR_000000001
+IMM:0000030,pMHC class II,peptide-major histocompatibility complex class II,http://purl.obolibrary.org/obo/IMM_0000028
+IMM:0000030,pMHC class II,antigen-bearing MHC class II,http://purl.obolibrary.org/obo/IMM_0000028
+IMM:0000022,immune system,,http://purl.obolibrary.org/obo/COB_0000021
+IMM:0000017,NK cell,large granular lymphocyte,http://purl.obolibrary.org/obo/IMM_0000016
+IMM:0000017,NK cell,Natural Killer Cell,http://purl.obolibrary.org/obo/IMM_0000016
+IMM:0000039,MHC,human leukocyte antigen,http://purl.obolibrary.org/obo/GO_0032991
+IMM:0000039,MHC,Major histocompatibility complex,http://purl.obolibrary.org/obo/GO_0032991
+IMM:0000003,immune evasion,,_:b15
+IMM:0000003,immune evasion,,http://purl.obolibrary.org/obo/BFO_0000016
+IMM:0000006,immune response,,http://purl.obolibrary.org/obo/GO_0008150
+IMM:0000055,Monoclonal antibodies therapy,,_:b16
+IMM:0000055,Monoclonal antibodies therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000021,cytokine,,http://purl.obolibrary.org/obo/GO_0110165
+IMM:0000065,tumor specific MHC II,tsMHC II,http://purl.obolibrary.org/obo/IMM_0000041
+IMM:0000049,therapy,therapeutic strategy,http://purl.obolibrary.org/obo/BFO_0000015
+IMM:0000019,benign cell,non-cancer cell,http://purl.obolibrary.org/obo/IMM_0000018
+IMM:0000008,T-cell activation,,_:b17
+IMM:0000008,T-cell activation,,http://purl.obolibrary.org/obo/BFO_0000034
+IMM:0000054,Cytokine therapy,,_:b18
+IMM:0000054,Cytokine therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000061,naive T cell,,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000058,Radio-immunotherapy virus therapy,,http://purl.obolibrary.org/obo/IMM_0000056
+IMM:0000047,PD-1,programmed cell death protein 1,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000044,CD28,,_:b19
+IMM:0000044,CD28,,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000064,tumor immune microenvironment,TIME,http://purl.obolibrary.org/obo/IMM_0000050
+IMM:0000024,lymph node,,http://purl.obolibrary.org/obo/COB_0000021
+IMM:0000068,BCR,B cell receptor,_:b20
+IMM:0000068,BCR,B cell receptor,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000020,cancer cell,malignant cell,http://purl.obolibrary.org/obo/IMM_0000018
+IMM:0000029,pMHC class I,peptide-major histocompatibility complex class I,http://purl.obolibrary.org/obo/IMM_0000028
+IMM:0000011,dendritic cell,,_:b21
+IMM:0000011,dendritic cell,,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000013,CAR-T cell,Chimeric antigen receptor T cell,_:b22
+IMM:0000013,CAR-T cell,Chimeric antigen receptor T cell,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000043,receptor,,_:b23
+IMM:0000043,receptor,,http://purl.obolibrary.org/obo/PR_000000001
+IMM:0000050,microenvironment,,http://purl.obolibrary.org/obo/BFO_0000029
+IMM:0000053,Checkpoint inhibitor therapy,,_:b24
+IMM:0000053,Checkpoint inhibitor therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000010,B cell,,_:b25
+IMM:0000010,B cell,,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000063,monocyte,,_:b26
+IMM:0000063,monocyte,,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000035,ligand,,_:b27
+IMM:0000035,ligand,,http://purl.obolibrary.org/obo/COB_0000013
+IMM:0000052,Cancer vaccine therapy,,_:b28
+IMM:0000052,Cancer vaccine therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000042,MHC III,,http://purl.obolibrary.org/obo/IMM_0000039
+IMM:0000034,tumor-specific antigen,TSA,http://purl.obolibrary.org/obo/BFO_0000016
+IMM:0000004,tumor microenvironment,tumor milieu,http://purl.obolibrary.org/obo/IMM_0000050
+IMM:0000004,tumor microenvironment,TME,http://purl.obolibrary.org/obo/IMM_0000050
+IMM:0000056,virus therapy,,_:b29
+IMM:0000056,virus therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000048,TCR,T cell receptor,_:b30
+IMM:0000048,TCR,T cell receptor,_:b31
+IMM:0000048,TCR,T cell receptor,http://purl.obolibrary.org/obo/IMM_0000043
+IMM:0000059,regulatory T cell,suppressor T cell,_:b32
+IMM:0000059,regulatory T cell,suppressor T cell,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000059,regulatory T cell,Tregs,_:b32
+IMM:0000059,regulatory T cell,Tregs,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000062,effector T cell,,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000067,cancer,,_:b33
+IMM:0000067,cancer,,http://purl.obolibrary.org/obo/GO_0008150
+IMM:0000023,tumor,neoplasm,_:b34
+IMM:0000023,tumor,neoplasm,http://purl.obolibrary.org/obo/COB_0000021
+IMM:0000025,cell surface,,http://purl.obolibrary.org/obo/UBERON_0000466
+IMM:0000009,APC,Antigen-presenting Cell,http://purl.obolibrary.org/obo/BFO_0000016
+IMM:0000001,inhibitor,,_:b35
+IMM:0000001,inhibitor,,http://purl.obolibrary.org/obo/BFO_0000016
+IMM:0000041,MHC II,human leukocyte antigen class II,_:b36
+IMM:0000041,MHC II,human leukocyte antigen class II,http://purl.obolibrary.org/obo/IMM_0000039
+IMM:0000041,MHC II,MHC class II,_:b36
+IMM:0000041,MHC II,MHC class II,http://purl.obolibrary.org/obo/IMM_0000039
+IMM:0000051,CAR-T cell therapy,,http://purl.obolibrary.org/obo/IMM_0000049
+IMM:0000027,tumor cell surface,,http://purl.obolibrary.org/obo/IMM_0000025
+IMM:0000014,T cell,lymphocyte,_:b37
+IMM:0000014,T cell,lymphocyte,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000016,CD8+ T cell,cytotoxic lymphocyte,_:b38
+IMM:0000016,CD8+ T cell,cytotoxic lymphocyte,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000016,CD8+ T cell,cytotoxic T cell,_:b38
+IMM:0000016,CD8+ T cell,cytotoxic T cell,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000016,CD8+ T cell,CTL,_:b38
+IMM:0000016,CD8+ T cell,CTL,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000016,CD8+ T cell,CD8+ lymphocyte,_:b38
+IMM:0000016,CD8+ T cell,CD8+ lymphocyte,http://purl.obolibrary.org/obo/IMM_0000014
+IMM:0000036,PD-L1,programmed cell death protein ligand 1,_:b39
+IMM:0000036,PD-L1,programmed cell death protein ligand 1,_:b40
+IMM:0000060,host rejection,,http://purl.obolibrary.org/obo/GO_0008150
+IMM:0000018,tumor cell,neoplastic cell,_:b41
+IMM:0000018,tumor cell,neoplastic cell,_:b42
+IMM:0000018,tumor cell,neoplastic cell,http://purl.obolibrary.org/obo/CL_0000000
+IMM:0000038,CD8,cluster of differentiation 8,_:b43
+IMM:0000038,CD8,cluster of differentiation 8,http://purl.obolibrary.org/obo/PR_000000001
