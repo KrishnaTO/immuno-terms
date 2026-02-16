@@ -105,6 +105,7 @@ id: IMM:0000014
 name: T cell
 synonym: "lymphocyte" EXACT []
 is_a: CL:0000000 ! cell
+relationship: RO:0000085 IMM:0000008 ! has function T-cell activation
 relationship: RO:0001021 IMM:0000067 ! is autoimmune trigger for cancer
 relationship: RO:0002002 IMM:0000026 ! has 2D boundary lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
@@ -357,6 +358,7 @@ name: CTLA-4
 synonym: "CD152" EXACT []
 synonym: "Cytotoxic T-lymphocyte-associated protein 4" EXACT []
 is_a: IMM:0000043 ! receptor
+relationship: http://purl.obolibrary.org/obo/IMM_b34764a8_9172_4645_ad34_d44d9bb6751f IMM:0000075 ! B7
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "Although CTLA-4 binds with B7 co-stimulatory receptors, it plays a negative role in the activation of T cells (1). Following the T-cell receptor (TCR) recognizing the antigen presented by the major histocompatibility complex (MHC) of APC, the CD28 of T cells binds to B7 of APC, which initiates a signaling cascade and leads to T-cell activation. CTLA-4s express and move to the cell membranes after T-cell activation, take over B7 from CD28, and suppress T-cell activity (2, 3). The coordination of CTLA-4 and CD28 maintains the balance of T-cell immunity in the body, especially after infection and the onset and progression of autoimmune disease." xsd:string {http://purl.org/dc/elements/1.1/source="PMID: 37497212"}
 
@@ -399,28 +401,28 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 
 [Term]
 id: IMM:0000052
-name: Cancer vaccine therapy
+name: cancer vaccine therapy
 is_a: IMM:0000049 ! therapy
 relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
 id: IMM:0000053
-name: Checkpoint inhibitor therapy
+name: checkpoint inhibitor therapy
 is_a: IMM:0000049 ! therapy
 relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
 id: IMM:0000054
-name: Cytokine therapy
+name: cytokine therapy
 is_a: IMM:0000049 ! therapy
 relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
 id: IMM:0000055
-name: Monoclonal antibodies therapy
+name: monoclonal antibodies therapy
 is_a: IMM:0000049 ! therapy
 relationship: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626 IMM:0000022 ! immune system
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
@@ -434,13 +436,13 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 
 [Term]
 id: IMM:0000057
-name: Oncolytic virus therapy
+name: oncolytic virus therapy
 is_a: IMM:0000056 ! virus therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
 id: IMM:0000058
-name: Radio-immunotherapy virus therapy
+name: radio-immunotherapy virus therapy
 is_a: IMM:0000056 ! virus therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
@@ -564,6 +566,18 @@ is_a: PR:000000001 ! protein
 relationship: RO:0000091 IMM:0000033 ! has disposition tumor associated antigen
 relationship: RO:0002245 IMM:0000023 ! over-expressed in tumor
 relationship: RO:0020331 IMM:0000067 ! prognostic for cancer
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000075
+name: B7
+is_a: IMM:0000043 ! receptor
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
+[Term]
+id: IMM:0000076
+name: cancer immunotherapy
+is_a: IMM:0000049 ! therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Typedef]
