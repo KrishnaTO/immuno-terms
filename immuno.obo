@@ -105,6 +105,7 @@ id: IMM:0000014
 name: T cell
 synonym: "lymphocyte" EXACT []
 is_a: CL:0000000 ! cell
+relationship: RO:0001021 IMM:0000067 ! is autoimmune trigger for cancer
 relationship: RO:0002002 IMM:0000026 ! has 2D boundary lymphocyte cell surface
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "T cells recognize fragments of protein antigens that have been partly degraded inside the antigen-presenting cell. The peptide fragments are then carried to the surface of the presenting cell on special molecules called MHC proteins, which present the fragments to T cells." xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
@@ -181,6 +182,7 @@ def: "An abnormal mass of tissue that forms when cells grow and divide more than
 synonym: "neoplasm" EXACT []
 is_a: COB:0000021 ! gross anatomical part
 relationship: RO:0001025 IMM:0000004 ! located in tumor microenvironment
+relationship: RO:0003303 IMM:0000067 ! causes condition cancer
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -504,8 +506,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 [Term]
 id: IMM:0000067
 name: cancer
-is_a: GO:0008150 ! biological process
-relationship: BFO:0000066 IMM:0000020 ! occurs in cancer cell
+is_a: OGMS:0000031 ! disease
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -561,6 +562,8 @@ synonym: "LYRIC" EXACT []
 synonym: "MTDH" EXACT []
 is_a: PR:000000001 ! protein
 relationship: RO:0000091 IMM:0000033 ! has disposition tumor associated antigen
+relationship: RO:0002245 IMM:0000023 ! over-expressed in tumor
+relationship: RO:0020331 IMM:0000067 ! prognostic for cancer
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Typedef]
