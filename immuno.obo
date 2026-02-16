@@ -580,6 +580,15 @@ name: cancer immunotherapy
 is_a: IMM:0000049 ! therapy
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
+[Term]
+id: IMM:0000077
+name: HLA-G
+synonym: "histocompatibility antigen, class I, G" EXACT []
+synonym: "human leukocyte antigen G" EXACT []
+is_a: IMM:0000031 ! antigen
+relationship: ENVO:01003004 IMM:0000040 ! derives from part of MHC I
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
+
 [Typedef]
 id: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626
 name: requires existing system
