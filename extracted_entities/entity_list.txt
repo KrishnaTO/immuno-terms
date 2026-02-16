@@ -1,0 +1,611 @@
+4-1BB
+AEG-1
+AFP
+AFP serum level
+AKT
+APC
+APCs
+ARG1
+Adaptive resistance
+Adenosine
+Adoptive cell transfer
+Alpha-fetoprotein
+Anergic T cells
+Angiogenesis
+Anti-CTLA-4 therapy
+Anti-PD-1 therapy
+Anti-PD-L1 therapy
+Anti-angiogenic therapy
+Antigen loss
+Antigen presentation
+Arginase
+Arginase-1
+Atezolizumab
+B cell receptor
+B cells
+B-Raf proto-oncogene
+B7
+B7 homolog 1
+B7-DC
+B7-H3
+B7-H4
+B7–H1
+BCG
+BCR
+BRAF mutation
+BRM
+BRM therapy
+BTLA
+BVD 523
+Bacillus Calmette Guerin
+Biological Response Modifier
+Breast cancer
+C-terminal subunit
+CAFs
+CANs
+CAR
+CAR T cells
+CAR-T cell therapy
+CCL2
+CCL5
+CCL5 receptor
+CCR5
+CD 273
+CD11b
+CD137
+CD14
+CD152
+CD163
+CD206
+CD25
+CD274
+CD279
+CD28
+CD3
+CD31
+CD33
+CD39
+CD4
+CD40
+CD40L
+CD4⁺ T cells
+CD56
+CD68
+CD73
+CD8
+CD8 +
+CD80
+CD86
+CD8⁺ T cells
+COX-2
+CTCs
+CTLA-4
+CTLA-4 inhibitors
+CTLs
+CTNNB1 mutation
+Cancer stem cells
+Cancer vaccines
+Cancer-associated fibroblasts
+Cancer-associated neutrophils
+Caspase-3
+Caspase-8
+Central memory T cells
+Chimeric antigen receptor
+Chronic hepatitis
+Chronic inflammation
+Circulating tumor DNA
+Circulating tumor cells
+cluster of differentiation 279
+cluster of differentiation 8 +
+Collagen
+Colorectal cancer
+Combination immunotherapy
+Conventional dendritic cells
+Cytotoxic T lymphocyte-associated protein-4
+Cytotoxic T lymphocytes
+Cytotoxic T-lymphocyte -associated protein 4
+Cytotoxic T-lymphocyte-associated protein 4
+DCs
+DNA methyltransferases
+DNA vaccine
+DNMTs
+Dendritic cells
+Dual checkpoint blockade
+Durvalumab
+E-cadherin
+ECM
+EGF
+EGFR
+EMA
+EMT
+ERK
+ERK 42
+ERK signalling
+ERK1/2
+EVs
+Effector memory T cells
+Endothelial cells
+ErbB
+Exhausted T cells
+Exosomes
+Extracellular matrix
+Extracellular vesicles
+FAK
+FAP
+FGF
+FGFR
+FOXP3
+FZD
+Fibronectin
+Fibrosis
+Freund’s adjuvants
+G-38963
+GATA3
+GC33
+GLUT1
+GM-CSF
+GP 96
+GPC- 3
+GPC3
+GSK3β
+Galectin-9
+Gastric cancer
+Glycoprotein 96
+Glypican-3
+HBV
+HCC
+HCC Hepatocellular carcinoma
+HCV
+HDACs
+HER2
+HGF
+HIF
+HIF-1α
+HLA G
+HLA-G
+HN3
+HS20
+HSE
+HSFs
+HSP
+HSP 70
+HSP27
+HSP40
+HSP70
+HSP90
+HSPPC 96
+HSPs
+Heat shock protein
+Heat shock protein-peptide complex 96
+Heat shock proteins
+Hepatic stellate cells
+Hepatitis B virus
+Hepatitis C virus
+Human leukocyte antigen G
+Human single domain antibodies
+Hyaluronic acid
+Hypoxia
+ICAM-1
+ICOS
+IDO
+IDO1
+IFN
+IFN-α
+IFN-β
+IFN-γ
+IGFBP7
+IHS
+IL
+IL-1
+IL-10
+IL-12
+IL-17
+IL-18
+IL-2
+IL-21
+IL-22
+IL-23
+IL-27
+IL-4
+IL-6
+IL-8
+IQGAP1
+ITSM
+Immune checkpoint upregulation
+Immune evasion
+Immune infiltration score
+Immunosuppression
+Indoleamine 23-dioxygenase
+Integrins
+JAK-STAT
+JAK/STAT pathway
+JAK1
+JAK2
+JAK2/STAT3
+JNK
+JNK2
+JNKs
+KRAS mutation
+Kupffer cells
+LAG-3
+LEF-1
+LPS
+LRR
+LYRIC
+Lactate
+Laminin
+Lenvatinib
+Ligands
+Lipopolysaccharide
+Liver cirrhosis
+Liver fibrosis
+Lung cancer
+MAP kinase
+MAPK
+MAPK pathway
+MAPK pathways
+MAPK signaling pathways
+MAPK-pathways
+MAPKs
+MAPKs pathways
+major histocompatibility complexes
+major histocompatibility complex II
+MDSCs
+MEK
+MEKK2
+MHC
+MHC 1
+MHC 2
+MHC I
+MHC II
+MHC class I
+MHC class II
+MHC-I
+MHC-II
+MHCs
+MIC
+MMP-2
+MMP-9
+MMPs
+MSI
+MTDH
+MUC 1
+MUC1
+Mast cells
+Matrix metalloproteinases
+Melanoma
+Memory T cells
+Mesenchymal stem cells
+Metadherin
+Metastasis
+Microsatellite instability
+Microvesicles
+Mitogen Activated Protein Kinase
+Mitogen-activated protein kinase
+Monocytes
+Mucin 1
+Mucins
+MyD88
+Myeloid-derived suppressor cells
+N-cadherin
+N-cadherin markers
+N-glycan
+N-terminal subunit
+NAFLD
+NASH
+NF-κB
+NF-κB pathway
+NF-κβ
+NFAT
+NK cell
+NK cell receptors
+NK cells
+NKG2D
+NKp30
+NKp46
+NLR
+NLRs
+NO
+NOD
+NOD-like receptors
+NOD1
+NOD2
+NY-ESO-1
+Neoantigen vaccine
+Neoantigens
+Neutrophils
+Nitric oxide
+Nivolumab
+Non-alcoholic fatty liver disease
+Non-alcoholic steatohepatitis
+O-glycan
+O-linked glycosylation
+OX40
+OX40L
+Oncolytic virus therapy
+P13K
+P13Ks
+PAMP
+PAMPs
+PD 1
+PD L1
+PD L2
+PD-1
+PD-L1
+PD-L2
+PD1
+PDCD1
+PDCD1LG2
+PDGF
+PDL1
+PEM
+PI3K
+PI3K signaling
+PI3K/AKT pathway
+PI3K/EKT
+PI3Ks
+PI3Kδ inhibitors
+PRRs
+Pancreatic cancer
+Pathogen associated molecular patterns
+Pembrolizumab
+Pericytes
+Personalized immunotherapy
+Phosphoinositide 3-kinases
+Plasma cells
+Plasmacytoid dendritic cells
+Primary resistance
+Programmed death ligand 1
+Programmed death receptor-1
+Prostaglandin E2
+Prostate cancer
+Pyk2
+RANTES
+RIG-I
+RIG-I-like receptors
+RLRs
+RORγt
+ROS
+Raf
+Ras
+Reactive oxygen species
+Regorafenib
+Regulatory T cells
+Renal cell carcinoma
+SHP-1
+SHP-2
+SMAD
+SMAD2
+SMAD3
+SMAD4
+STAT1
+STAT3
+STAT5
+Selectins
+Selumetinib
+Sorafenib
+Src
+Stromal compartment
+T cell
+T cell exhaustion
+T cell immunotherapies
+T cell receptor
+T cell receptors
+T cells
+T lymphocyte
+T-cell
+T-cell engaging bispecific antibodies
+T-cell receptor
+T-cells
+TA
+TAA
+TAAs
+TAMs Tumor-associated macrophages
+TCR
+TCR-T therapy
+TDO
+TGF- beta
+TGF-β
+TGF-β signaling pathway
+TGFβ
+TIGIT
+TIL therapy
+TIM-3
+TIR
+TLR
+TLR2
+TLR3
+TLR4
+TLR7
+TLR8
+TLR9
+TLRs
+TMB
+TME
+TNF-α
+TNFα
+TP53 mutation
+TSA
+TSAs
+Tenascin-C
+Th1
+Th1 cells
+Th17 cells
+Th2
+Th2 cells
+Tissue-resident memory T cells
+Trametinib
+Treg
+Tregs
+Tryptophan 23-dioxygenase
+Tumor antigens
+Tumor cells
+Tumor heterogeneity
+Tumor immune evasion
+Tumor microenvironment
+Tumor mutational burden
+Tumor-associated antigens
+Tumor-specific MHC-II
+Tyrosine-Based Switch Motif
+VEGF
+VEGF signaling pathway
+VEGF-A
+VEGFR-2
+VISTA
+Viral hepatitis
+WNT catenin
+WNT catenin pathways
+Wnt
+Wnt/β-catenin pathway
+YP7
+activated cytotoxic T-cells
+amino acids
+anti-CTLA antibodies
+antigen-MHC complex
+antigen-presenting cells
+antigens
+apoptosis
+arabinogalactomannan
+astrocyte elevated gene-1 protein
+bacillus Calmette-Guérin
+biosynthesis
+breast
+c-Jun N-terminal kinases
+c-Myc
+cDC1
+cDC2
+cancer cell
+cancer cell survival
+cancer cells
+cancer immunotherapy
+cancer proliferation
+cell differentiation
+cell membrane
+cell migration
+cell motility
+cell proliferation
+cell survival
+cervical cancer
+checkpoint inhibitors
+chemokine CCL5
+chemotherapy
+Chimeric Antigen Receptor T cells
+chondrosarcoma cells
+cluster of differentiation 274
+cluster of differentiation 279
+cluster of differentiation 8 +
+colon
+colon carcinoma
+ctDNA
+cytokines
+cytotoxic T
+cytotoxic T cell
+cytotoxic T cells
+cytotoxic T-cell signalling
+dendritic cell-based vaccine
+epithelial cells
+epithelial membrane antigen
+epithelial mesenchymal transition
+extracellular signal-regulated kinase
+eyes
+Gene therapy
+glioma
+glycoprotein
+glycosylphosphatidylinositol linkage
+granulocyte–macrophage colony-stimulating factor
+hYP7
+heat shock
+heat shock elements
+heat shock transcription factors
+heparan sulfate
+heparan sulfate proteoglycan
+heparan sulphate
+hepatocellular carcinoma
+hippo pathways
+histocompatibility antigen class I G
+immune cell
+immune protein
+immune regulation
+immune system
+immunotoxins
+indoleamine 2,3-dioxygenase dioxygenase 1
+interleukin
+intestines
+keyhole limpet hemocyanin
+liver
+lung
+lung adenocarcinoma
+lungs
+lymphocyte
+lymphocyte-associated protein 4
+lymphocytic leukemia
+lymphoid enhancer binding factor 1
+mRNA
+mTOR
+macrophage
+macrophages
+major histocompatibility complex
+major histocompatibility complex II
+malignant cells
+mannan
+mature cytotoxic T-cells
+metalloproteinases-3
+metastatic
+metastatic pathways
+mice
+mitogens
+myeloid-derived suppressor cells
+neoplastic cells
+nod like receptor
+nucleotide-binding oligomerization domain
+oestrogen receptor
+oligosaccharides
+oncogenic pathways
+osmotic stress
+ovarian
+ovarian carcinoma
+p38
+p53
+paclitaxel
+pancreatic cancers
+pattern recognition receptors
+PD-1 ligand 2
+peptide/protein vaccines
+peptidoglycan
+polymorphic epithelial mucin
+pro-B cells
+programmed cell death
+programmed cell death protein 1
+programmed cell death protein ligand 1
+programmed death ligand-1
+proto-oncogenes
+radiation
+ragweed-TLR9
+regulatory T cells
+regulatory T-cells
+retinoid acid-inducible gene I
+sMIC
+saponin
+serine
+serine kinase
+snail
+stomach
+suppressive T cells
+threonine
+threonine kinase
+toll-like receptors
+tsMHC-II
+tumor associated antigens
+tumor cells
+tumor immunotherapy
+tumor microenvironment
+tumor milieu
+tumor necrosis factor
+tumor-specific antigens
+tumorigenesis
+Tyrosine-Based Switch Motif
+vaccines
+vaccinia virus vaccine
+vascular endothelial growth factor
+β catenin
+β-catenin
