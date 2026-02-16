@@ -554,7 +554,13 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 [Term]
 id: IMM:0000074
 name: metadherin
+def: "A protein which has been implicated in various aspects of cancer progression and metastasis." [] {IAO:0000119="https://doi.org/10.3389/fonc.2019.00349"}
+synonym: "AEG-1" EXACT []
+synonym: "astrocyte elevated gene-1 protein" EXACT []
+synonym: "LYRIC" EXACT []
+synonym: "MTDH" EXACT []
 is_a: PR:000000001 ! protein
+relationship: RO:0000091 IMM:0000033 ! has disposition tumor associated antigen
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Typedef]
