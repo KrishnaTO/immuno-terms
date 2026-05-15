@@ -73,7 +73,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 [Term]
 id: IMM:0000010
 name: B cell
-is_a: CL:0000000 ! cell
+is_a: IMM:0000107 ! lymphocyte
 relationship: RO:0000091 IMM:0000009 ! has disposition APC
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 property_value: IAO:0000116 "recognize intact antigen" xsd:string {source="https://www.ncbi.nlm.nih.gov/books/NBK26926/"}
@@ -104,7 +104,7 @@ property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0
 id: IMM:0000014
 name: T cell
 synonym: "lymphocyte" EXACT []
-is_a: CL:0000000 ! cell
+is_a: IMM:0000107 ! lymphocyte
 relationship: RO:0000085 IMM:0000008 ! has function T-cell activation
 relationship: RO:0001021 IMM:0000067 ! is autoimmune trigger for cancer
 relationship: RO:0002002 IMM:0000026 ! has 2D boundary lymphocyte cell surface
@@ -137,7 +137,7 @@ id: IMM:0000017
 name: NK cell
 synonym: "large granular lymphocyte" EXACT []
 synonym: "Natural Killer Cell" EXACT []
-is_a: IMM:0000016 ! CD8+ T cell
+is_a: IMM:0000107 ! lymphocyte
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -481,7 +481,7 @@ property_value: IAO:0000116 "once activated, effector T cells act only at short 
 [Term]
 id: IMM:0000063
 name: monocyte
-is_a: CL:0000000 ! cell
+is_a: IMM:0000102 ! leukocyte
 property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-2627-0696
 
 [Term]
@@ -649,6 +649,33 @@ id: IMM:0000101
 name: adaptive immunity
 def: "specific response against infection by potential pathogens, such as the production of antibodies against a particular pathogen,during the lifetime of an individual as an adaptation to infection with that pathogen" [] {IAO:0000119="Murphy, K. M., & Weaver, C. (with Janeway, C. A., Mowat, A., Berg, L. J., Chaplin, D. D., Travers, P., & Walport, M.). (2017). Janeway’s immunobiology (9th edition). GS, Garland Science, Taylor & Francis Group."}
 is_a: UPHENO:0001001 ! phenotype
+
+[Term]
+id: IMM:0000102
+name: leukocyte
+synonym: "WBC" EXACT []
+synonym: "white blood cell" EXACT []
+is_a: CL:0000000 ! cell
+
+[Term]
+id: IMM:0000103
+name: neutrophil
+is_a: IMM:0000102 ! leukocyte
+
+[Term]
+id: IMM:0000105
+name: eosinophil
+is_a: IMM:0000102 ! leukocyte
+
+[Term]
+id: IMM:0000106
+name: basophil
+is_a: IMM:0000102 ! leukocyte
+
+[Term]
+id: IMM:0000107
+name: lymphocyte
+is_a: IMM:0000102 ! leukocyte
 
 [Typedef]
 id: http://purl.obolibrary.org/obo/IMM_8540c1c6_a7c7_417e_8d36_cec151ffb626
